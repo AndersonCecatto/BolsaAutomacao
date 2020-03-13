@@ -1,0 +1,16 @@
+Criado tres aplicações distintas, para que seja melhor analizado.
+ - Foi desenvolvida uma aplicação Console App da forma mais simples para gerar os valores aleatórios conforme descrito - Simulador
+ - Foi desenvolvida uma aplicação onde realiza as 100 iterações como descrito, alem de criado um metodo que monitora cada inserção nova na tabela Monitoramento, pois a cada 5 segundos é gerado um registro novo, e se aquele registro foi menor que o saldo da conta ele insere um novo registro na tabela negociacoes, a venda segue conforme descrito no desafio, onde um metodo monitora qual é a ultima ação inserida na tabela Monitoramento, verificando os valores, e fazendo a venda de acordo com o ultimo valor de venda da ação.
+- Web Api faz as funções de acordo com o que foi solicitado.
+
+- As tecnologias utilizadas forma C#, Entity Framework, SQLServer, foram escolhidas estas tecnologias pois são as que mais tenho familharidade.
+- Foi utilizado o Padrão MVC, alem de utilizar Code First para geração das tabelas, fazendo a iteração de banco e codigo sem necesidade de SQL na Aplicação.
+
+* Modo de utilização
+
+- Para criação do banco pode ser criado atravez das migrations, utilizando o comando update-database no projeto BolsaTesteNovo, o simulador pode ser executado apos a criação do banco.
+- Criado um metodo que acemelha-se ao envio de email, gerando um relatório com os dados solicitados.
+- Criada Api para consultas conforme solicitado.
+- A Aplicação apenas precisa ser compilada para funcionar.
+- Para conexão é necessario alterar a string de conexão em todos os projetos.
+- Alterar o caminho pra geração do relatório.
